@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chat"
+version = "0.1.0"
+description = ""
+authors = ["Marc Fabian Mezger <57255687+mfmezger@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+taipy = "^3.0.0"
+ollama = "^0.1.6"
+ultra-simple-config = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
